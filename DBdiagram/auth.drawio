@@ -1,0 +1,53 @@
+<mxfile host="65bd71144e">
+    <diagram id="CBJ1PH-com3XR3jqDsze" name="Page-1">
+        <mxGraphModel dx="612" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="user sent his/her mobileNumber" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="authDataValidation&lt;br&gt;middleware&amp;nbsp;&lt;br&gt;check the user mobile Number" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="150" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="310" as="sourcePoint"/>
+                        <mxPoint x="340" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=flexArrow;endArrow=classic;html=1;width=7;endSize=11.13;endWidth=6;startArrow=none;" edge="1" parent="1" source="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="309.5" y="230" as="sourcePoint"/>
+                        <mxPoint x="310" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=flexArrow;endArrow=none;html=1;width=7;endSize=11.13;endWidth=6;" edge="1" parent="1" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="309.5" y="230" as="sourcePoint"/>
+                        <mxPoint x="310" y="320" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="if this user exist in DB?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="300" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.42666422526041664;arrowSize=0.5600001743861607;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="325" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="290" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="INSERT this user in DB by her/his mobileNubmer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,30 @@
+{
+  "name": "bidarbash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node main.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@common": "app/common",
+    "@middlewares": "app/common/middlewares",
+    "@modules": "app/modules",
+    "@config": "app/config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "auto-bind": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.7.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
